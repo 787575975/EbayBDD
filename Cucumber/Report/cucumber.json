@@ -1,0 +1,100 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Register Feature test",
+        "description": "",
+        "id": "register-feature;register-feature-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4995243401,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User in register page",
+            "match": {
+              "location": "RegisterSteps.User_in_register_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 845316008,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "put first name",
+            "match": {
+              "location": "RegisterSteps.put_first_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 71380191,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "put last name",
+            "match": {
+              "location": "RegisterSteps.put_last_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 174875523,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "put email address",
+            "match": {
+              "location": "RegisterSteps.put_email_address()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 350969407,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enter password",
+            "match": {
+              "location": "RegisterSteps.enter_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10112715842,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click create account button",
+            "match": {
+              "location": "RegisterSteps.click_create_account_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register Feature",
+    "description": "",
+    "id": "register-feature",
+    "keyword": "Feature",
+    "uri": "/Users/dola/IdeaProjects/EbayBDD/Cucumber/src/test/java/Features/Register.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@FunctionalTest"
+      }
+    ]
+  }
+]
